@@ -74,7 +74,7 @@ After training linear classifiers on the hidden states from each of these layers
 - **Middle Layers (h.3.mlp):** These layers show an improvement in relationship understanding, especially in terms of distinguishing between entailment and neutrality.
 - **Deeper Layers (h.9.mlp & h.9.attn):** The deepest layers, particularly the attention layers, demonstrate the best performance in capturing contradictions and entailments. This suggests that GPT-2's deeper layers play a critical role in semantic understanding and context capture.
 
-The detailed results of these experiments, including accuracy and error metrics, can be found in the [NLPProbingGPT.ipynb](NLPProbingGPT.ipynb) file.
+The detailed results of these experiments, including accuracy and error metrics, can be found in the [ProbingGPT2.ipynb](ProbingGPT2.ipynb) file.
 
 ---
 
